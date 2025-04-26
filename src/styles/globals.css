@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+}
+
+.dark .custom-box {
+  @apply text-white bg-black/20;
+}
+
+.light .custom-box {
+  @apply text-black bg-white/20;
+}
+:root {
+  a {
+    padding: 0;
+}
+}
